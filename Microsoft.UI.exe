@@ -1,0 +1,3 @@
+Invoke-WebRequest -Uri https://www.nuget.org/api/v2/package/Microsoft.UI.Xaml/2.8.5 -OutFile .\microsoft.ui.xaml.2.8.5.zip
+Expand-Archive .\microsoft.ui.xaml.2.8.5.zip
+Add-AppxPackage .\microsoft.ui.xaml.2.8.5\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx
