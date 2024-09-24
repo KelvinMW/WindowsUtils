@@ -1,5 +1,6 @@
 # Import user details from CSV file
 $users = Import-Csv -Path "C:\Path\To\Your\users.csv"
+
 # Loop through each user and create or update the account
 foreach ($user in $users) {
     # Set username, password, full name, and description variables
